@@ -1,24 +1,5 @@
 
-// var figure = $(".box").hover( hoverVideo, hideVideo );
-
-// function hoverVideo(e) {  
-//     $('video', this).get(0).play(); 
-// }
-
-// function hideVideo(e) {
-//     $('video', this).get(0).load(); 
-// }
-
-// var stopHover = document.getElementsByTagName("video"); 
-
-// if ($(stopHover).width() < 780) {
-//     style.display = "none";  
-//  }
-//  else {
-//     style.display = "block"; 
-//  }
-
-
+// Slideshow
 
 var slideIndex = 0;
 var slides = document.getElementsByClassName("mySlides");
@@ -33,7 +14,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex> slides.length) {slideIndex = 1} 
   slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  setTimeout(showSlides, 5000);
 }
 
 function currentSlide(no) {
