@@ -176,15 +176,6 @@ input:focus + div .back{
     animation-duration: 1.5s;
   }
   
-  @-webkit-keyframes fade {
-    from {
-        opacity: .4
-    } 
-    to {
-        opacity: 1
-    }
-  }
-  
   @keyframes fade {
     from {
         opacity: .4
@@ -270,7 +261,6 @@ input:focus + div .back{
 
 
 @media screen and (max-width:375px) {
-
 
     .slideshow-container img {
         height: 400px;

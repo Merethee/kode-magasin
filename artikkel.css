@@ -1,4 +1,4 @@
-/* Artikkler */
+/* Artikler */
 
 .artikkel {
     width: 100%;
@@ -279,7 +279,6 @@
     .btn.j{
         background-color: #f0b24b; 
     }
-    
 }
 
 @media screen and (max-width:375px) {
