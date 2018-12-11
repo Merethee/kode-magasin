@@ -6,7 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;    
+
 }
 
 .logo.liten {
@@ -20,15 +21,16 @@
 }
 
 .icons img {
-    width: 25px;
-    height: 25px;
+    width: 20px; 
+    height: auto; 
 
     display: block;
-    margin: 10px;
+    margin: 20px;
     position: relative;
-    top: 30px;
+    top: 34px;
     left: -100px;
 }
+
 
 .footer .icons p {
     text-align: left;
@@ -39,11 +41,12 @@
     top: -90px;
     left: -50px;
 }
-
 .some img {
     display: inline;
-    top: -145px;
-    left: 250px;
+    position: relative; 
+    top: -150px;
+    left: 300px; 
+
 }
 
 
