@@ -206,7 +206,7 @@ a {
 
 
 @media screen and (max-width: 1000px) {
-    .hover {
+    .hover span {
         margin-top: -140px;
     }
 
@@ -223,20 +223,60 @@ a {
 }
 
 @media screen and (max-width:768px) {
-    .hover {
-        margin-top: -100px;
-        margin-bottom: -120px; 
+    .hover span {
+        display: none; 
     }
 
+      .hover:after {
+        content: 'Hold inne knapp for å se animasjoner';
+      }
+      
+      .button {
+          margin-top: -20px; 
+      }
+ 
     .click {
         margin-top: -80px;
     }
-}
 
+    #btnBounce:hover~#bounce {
+        animation: none; 
+    }
+    
+    #btnRotate:hover~#rotate{
+        animation: none; 
+    }
+    
+    #btnSlide:hover~#slide {
+        animation: none; 
+    }
+    
+    #btnJello:hover~#jello {
+        animation: none; 
+    }
+    
+
+    #btnRotate:active~#rotate {
+        animation: rotate-around 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    #btnJello:active~#jello {
+        animation: jello-ver 0.9s both;
+    }
+    
+    #btnSlide:active~#slide {
+        animation: slide-in 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    #btnBounce:active~#bounce {
+        animation: bounce-in 1.1s both;
+    }
+
+}
 
 @media screen and (max-width:375px) {
 
-    .hover {
+    .hover span {
         margin-top: -10px;
     }
 
@@ -252,5 +292,6 @@ a {
         margin-bottom: -30px;
     }
 
+    
 
 }

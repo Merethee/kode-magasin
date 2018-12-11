@@ -1,9 +1,20 @@
 
-/* tekst + popup */
+/* tekst animasjonegenskaper */
 
 .text-ae {
     margin: 0 auto;
 }
+
+.egenskaper {
+    margin-top: -100px;
+}
+
+ul li {
+    width: 500px;
+    line-height: 1.6em;
+}
+
+/* triangle element bakgrunn */
 
 .triangle {
     visibility: visible;
@@ -26,14 +37,7 @@
     border-color: #0000002d transparent transparent transparent;
 }
 
-.egenskaper {
-    margin-top: -100px;
-}
-
-ul li {
-    width: 500px;
-    line-height: 1.6em;
-}
+/* popup */
 
 .knapp-popup {
     width: 1000px;
@@ -51,10 +55,12 @@ ul li {
     margin: 0 auto;
     padding-top: 10px;
     padding-left: 14px;
+
+    background-color: #ed612c;
     color: #fff;
     font-size: 15pt;
-    background-color: #ed612c;
     border-radius: 50px;
+
     width: 40px;
     height: 40px;
 
@@ -96,6 +102,7 @@ ul li {
 .overlay-to {
     width: 500px;
     height: 280px;
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -104,13 +111,14 @@ ul li {
 
     background: rgb(20, 20, 20);
     border-radius: 10px;
+
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
 }
 
 .overlay-to {
-    height: 400px;
+    height: 360px;
 }
 
 #cb:checked~.overlay {
@@ -144,10 +152,11 @@ ul li {
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
+   
     font-size: 25px;
     font-weight: bold;
 
+    transition: all 200ms;
     text-decoration: none;
     color: #333;
     cursor: pointer;

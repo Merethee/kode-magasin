@@ -10,6 +10,8 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     margin: 0;
+    height: 100vh;
+    width:100vw;
 }
 
 /* Artikkel */
@@ -138,8 +140,8 @@ h2 a {
 
 #lesmer {
     text-align: left;
-    font-family: 'inconsolata';
-    font-size: 1.2rem;
+    font-family: 'montserrat';
+    font-size: 1.1rem;
     font-weight: 400;
     padding-bottom: 10px;
     border-bottom: 1px solid white;
@@ -237,8 +239,6 @@ h2 a {
 }
 
 
-
-
 @media screen and (max-width:768px) {
     .logo img {
         width: auto;
@@ -274,6 +274,22 @@ h2 a {
         display: none;
     }
 
+    .copy-code span {
+        display: none; 
+    }
+
+    .copy-code:after {
+        content: '';
+      }
+
+      pre {
+        margin-top: -100px;
+        margin-bottom: 160px;
+    }
+
+    .stretch-element {
+        margin-top: -40px; 
+    }
 }
 
 @media screen and (max-width:375px) {
