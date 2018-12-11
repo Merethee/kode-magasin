@@ -12,6 +12,7 @@
 ul li {
     width: 500px;
     line-height: 1.6em;
+    margin-bottom: 1em;
 }
 
 /* triangle element bakgrunn */
@@ -201,6 +202,7 @@ ul li {
     }
     .text-ae {
         width: 350px;
+        margin-top: -40px; 
     }
 
     ul li {

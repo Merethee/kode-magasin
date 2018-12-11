@@ -313,9 +313,9 @@ h2 a {
         display: none;
     }
 
-    .text-ae {
-        width: 350px;
-    }
+   .text {
+       margin-left: 50px; 
+   }
 
     ul li {
         width: 350px;
@@ -332,6 +332,7 @@ h2 a {
 
     h1,
     h2 {
+        margin-left: 20px; 
         margin-top: 70px;
     }
 
@@ -344,14 +345,24 @@ h2 a {
         margin-top: 30px;
     }
 
-    .end p {
-        text-align: center;
-        margin-left: -150px; 
-    }
+ 
 
     code {
         padding-left: -60px;
     }
 
+    .end p {
+        margin-left: -150px; 
+    }
+
+    #lesmer {
+        margin-left: 50px; 
+    }
+
+    .artikkel.a1,
+    .artikkel.a2,
+    .artikkel.a3 {
+        margin-left: 65px; 
+    }
 }
 
