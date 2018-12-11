@@ -1,13 +1,13 @@
 
-var figure = $(".box").hover( hoverVideo, hideVideo );
+// var figure = $(".box").hover( hoverVideo, hideVideo );
 
-function hoverVideo(e) {  
-    $('video', this).get(0).play(); 
-}
+// function hoverVideo(e) {  
+//     $('video', this).get(0).play(); 
+// }
 
-function hideVideo(e) {
-    $('video', this).get(0).load(); 
-}
+// function hideVideo(e) {
+//     $('video', this).get(0).load(); 
+// }
 
 // var stopHover = document.getElementsByTagName("video"); 
 

@@ -39,6 +39,14 @@ body {
     height: 92px; 
 }
 
+header {
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Search */ 
+
 .search  {
     margin: 20px; 
     position: absolute;
@@ -47,13 +55,8 @@ body {
     z-index: 200;
 }
 
-header{
-    width: 200px;
-    position: relative;
-    margin: 0 auto;
-}
 
-input:focus{
+input:focus {
     width: 200px;
     height: 40px;
     border-radius: 10px;
@@ -65,7 +68,7 @@ input:focus{
     cursor: auto;
 }
 
-input{
+input {
     float: right;
     border: 3px solid #f0b24b;
     outline: none;
@@ -99,7 +102,7 @@ input{
     transition: .2s all ease-in;
 }
 
-.back{
+.back {
     position: absolute;
     right: -2px;
     top: 20px;
@@ -122,7 +125,6 @@ input:focus + div .back{
 /* Tags */
 
 .tag-box {
-    margin: 0 auto; 
     width: 100%; 
     display: flex;
     flex-wrap: wrap;
@@ -132,18 +134,13 @@ input:focus + div .back{
 }
 
 .box {
-    margin: 20px;
+    margin: 50px;
     position: relative;
     top: 50px; 
-    overflow: hidden;
-}
+    left: -90px; 
+} 
 
-.box video {
-    width: 300px;
-    height: 253px;
-}
-
-.box a {
+ .box a {
     position: relative;
     top: 15px; 
     text-decoration: none; 
@@ -152,16 +149,15 @@ input:focus + div .back{
 
 .box:hover {
     cursor: pointer;
-}
+} 
 
 /* Btn til tags */
 
 .btn {
-    width: 110px; 
-    height: 30px; 
+    width: 150px; 
+    height: 50px; 
     border-radius: 8px; 
-    padding: 5px; 
-    margin-top: 10px; 
+    padding: 15px; 
 
     display: flex;
     flex-wrap: wrap;
@@ -185,8 +181,6 @@ input:focus + div .back{
     border: 2px solid  #f0b24b; 
     top: 0;
     left: 95px; 
-    height: 30.5px; 
-    width: 111px; 
 }
 
 .btn.h:hover{
@@ -230,6 +224,7 @@ input:focus + div .back{
 
     font-family: 'Inconsolata', monospace; 
     letter-spacing: 0.5px; 
+
   }
 
   .dot {
