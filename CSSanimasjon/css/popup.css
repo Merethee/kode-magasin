@@ -52,7 +52,8 @@ ul li {
     top: 500px;
 }
 
-#btnPopup {
+#btnPopup,
+#btnPopup2 {
     margin: 0 auto;
     padding-top: 10px;
     padding-left: 14px;
@@ -89,7 +90,9 @@ ul li {
 }
 
 #cb,
-#cb2 {
+#cb2,
+#ob,
+#ob2 {
     display: none;
 }
 
@@ -122,12 +125,14 @@ ul li {
     height: 360px;
 }
 
-#cb:checked~.overlay {
+#cb:checked~.overlay,
+#ob:checked~.overlay {
     visibility: visible;
     opacity: 1;
 }
 
-#cb2:checked~.overlay-to {
+#cb2:checked~.overlay-to,
+#ob2:checked~.overlay-to  {
     visibility: visible;
     opacity: 1;
 }
