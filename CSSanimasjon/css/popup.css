@@ -184,7 +184,8 @@ ul li {
         margin-top: 100px;
     }
 
-    #btnPopup {
+    #btnPopup,
+    #btnPopup2  {
         display: none;
     }
 }
